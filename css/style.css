@@ -39,11 +39,6 @@ header {
   font-size: 1.5rem;
 }
 
-.header-body {
-  text-align: center;
-  margin-top: 20%;
-  padding: 0 2em;
-}
 
 .header-body_text {
   color: #fff;
@@ -54,6 +49,15 @@ header {
   color: #E4A13D;
   font-weight: 700;
 
+}
+
+.head-col {
+  flex-basis: auto;
+}
+
+.row {
+  text-align: center;
+  margin-top: 14%;
 }
 
 .header-body_p {
@@ -70,7 +74,7 @@ header {
   background-color: #E4A13D;
   border-color: #E4A13D;
   margin-top: 5%;
-  margin-bottom: 30%;
+  margin-bottom: 15%;
   transition: all .4s ease-in-out;
 }
 
@@ -81,6 +85,11 @@ header {
 }
 
 /* HEADER ENDS */
+/* WHY US SECTION */
+.why-us-img {
+  width: 100%;
+  height: auto;
+}
 
 /* FOOTER */
 .signup-section {
