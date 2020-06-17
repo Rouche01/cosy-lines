@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* Mobile first approach */
+
+header {
+  padding: 1px;
+  background: rgba(110, 156, 170, 0.89);
+}
+
+.navbar {
+  background: rgba(110, 156, 170, 0) !important;
+  padding: 1em 1rem 0 2em;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.logo,
+.nav-item,
+.nav-link {
+  color: #fff !important;
+}
+
+.logo {
+  font-weight: 700;
+  line-height: 34px;
+  font-size: 1.5rem;
+}
+
+.header-body {
+  text-align: center;
+  margin-top: 20%;
+  padding: 0 2em;
+}
+
+.header-body_text {
+  color: #fff;
+  font-weight: 700;
+}
+
+.innertext {
+  color: #E4A13D;
+  font-weight: 700;
+
+}
+
+.header-body_p {
+  color: #fff;
+  margin-top: 8%;
+}
+
+.header-img {
+  display: none;
+}
+
+.btn-header {
+  color: #fff;
+  background-color: #E4A13D;
+  border-color: #E4A13D;
+  margin-top: 5%;
+  margin-bottom: 30%;
+  transition: all .4s ease-in-out;
+}
+
+.btn-header:hover {
+  color: #E4A13D;
+  border-color: #fff;
+  background-color: #fff;
+}
+
+/* FOOTER */
+.signup-section {
+  background-image: linear-gradient(rgba(110, 156, 170, 0.89), rgba(110, 156, 170, 0.89)), url(./img/bg-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign-up {
+  font-size: 0.875rem;
+  font-weight: 700;
+  width: 70%;
+  text-align: center;
+  padding-left: 8em;
+  padding-top: 1em;
+  line-height: 1.8;
+}
