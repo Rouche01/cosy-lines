@@ -6,7 +6,21 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+}
 
+h1  {
+  font-size: 48px;
+  font-weight: 700;
+} 
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* Mobile first approach */
@@ -20,11 +34,15 @@ header {
 
 .navbar {
   background: rgba(110, 156, 170, 0) !important;
-  padding: 1em 1rem 0 2em;
+  padding-top: 1em;
 }
 
 .navbar-collapse {
   text-align: center;
+}
+
+.cart {
+  cursor: pointer;
 }
 
 .logo,
@@ -43,6 +61,8 @@ header {
 .header-body_text {
   color: #fff;
   font-weight: 700;
+  font-size: 30px;
+  line-height: 2.2rem;
 }
 
 .innertext {

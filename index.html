@@ -11,14 +11,8 @@
     />
 
     <!-- Website description -->
-    <meta
-      name="description"
-      content="Cosy-Lines: HTML website template for an interior design brand"
-    />
-    <meta
-      name="keywords"
-      content="interior design, HTML templates, interior design website"
-    />
+    <meta name="description" content="Cosy-Lines: HTML website template for an interior design brand"/>
+    <meta name="keywords" content="interior design, HTML templates, interior design website" />
 
     <!-- Website title-->
     <title>Cosy-Lines</title>
@@ -26,10 +20,7 @@
     <link rel="apple-touch-icon-precomposed" href="" />
 
     <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- CSS links-->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -42,54 +33,58 @@
       <!-- HEADER STARTS HERE -->
       <header>
         <!-- NAVBAR STARTS HERE -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand logo" href="#">ZURI</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <div class="container">
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto navlist">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item cart-icon">
-                <i class="fas fa-shopping-cart"></i>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        
+          <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <a class="navbar-brand logo" href="#">ZURI</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto navlist">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item cart-icon">
+                  <a class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
         <!-- NAVBAR ENDS HERE -->
 
         <!-- header body starts here -->
-        <div class="container">
+        <div class="container home-hero">
           <div class="row">
-            <div class="col head-col">
+            <div class="col-md-6 col-sm-12 head-col">
               <h2 class="header-body_text">
                 We Create <span class="innertext">Enviroments</span> With
-                <span class="innertext">simplicity</span>
+                <span class="innertext">Simplicity</span>
               </h2>
               <p class="header-body_p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -97,7 +92,7 @@
               </p>
               <button type="button" class="btn btn-header">Learn more</button>
             </div>
-            <div class="col head-col">
+            <div class="col-md-6 head-col">
               <img
                 src="./img/header-img.png"
                 alt="header image"
