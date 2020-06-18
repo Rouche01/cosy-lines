@@ -2,17 +2,36 @@
 
 @media all and (min-width:700px) {
 
+  .container {
+    max-width: 800px;
+  }
+
   .header-body_text {
-    padding: 0 20%;
+    text-align: left;
+    font-size: 36px;
+    line-height: 2.8rem;
   }
 
   .header-body_p {
-    margin-top: 5%;
-    padding: 0 15%;
+    margin-top: 3%;
+    text-align: left;
   }
 
   .btn-header {
-    margin-bottom: 15%;
+    display: block;
+  }
+
+  .header-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .sign-up {
+    grid-column: 1/3;
+    font-size: 1.5rem;
+    font-weight: 700;
+    justify-self: center;
   }
 
   /* WHY US SECTION */
@@ -92,6 +111,10 @@
 
 @media all and (min-width:992px) {
 
+  .container {
+    max-width: 960px;
+  }
+
   /* navbar */
   .logo {
     font-size: 2rem;
@@ -101,13 +124,12 @@
   .navbar {
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    padding: 1em 0 0em 4.2em;
+    padding: 1em 0 0em 0;
     overflow: hidden;
   }
 
   .nav-item {
-    padding: 0 0 0 1em;
+    margin-left: 24px;
 
   }
 
@@ -141,28 +163,24 @@
 
   /* navbar ends */
 
-  /* header starts */
+  /* header hero starts */
   .row {
     padding: 0em 1em;
     margin-top: 7%;
   }
 
-
-  .head-col {
-    flex-basis: 0;
-  }
-
   .header-body_text {
     text-align: left;
-    line-height: 1.7;
+    line-height: 3.8rem;
     padding: 0;
 
   }
 
-  .header-img {
-    display: block;
-    width: 100%;
-    height: auto;
+  .header-body_text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.2rem;
   }
 
   .header-body_p {
@@ -171,13 +189,9 @@
   }
 
   .btn-header {
-    margin-bottom: 30%;
-  }
-
-  .btn-header {
-    margin-right: 73%;
-
-
+    display: block;
+    font-size: 18px;
+    padding: 9px 25px;
   }
 
   /* second part of why us section */
@@ -256,10 +270,9 @@
   }
 
   .sign-up {
-
-    font-size: 1.5rem;
     grid-column: 1/3;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
     justify-self: center;
   }
 
@@ -285,22 +298,54 @@
     margin-bottom: 3%;
   }
 
-
+  h1  {
+    font-size: 48px;
+    font-weight: 700;
+  } 
+  
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 400;
+  }
 
 
 }
 
 @media all and (min-width:1200px) {
-  .logo {
-    margin-left: 6%;
-  }
-
-  .header-body_text {
-    width: 80%;
-  }
-
   .header-body_p {
-    width: 70%;
+    width: 75%;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .home-hero {
+    padding-bottom: 60px;
+  }
+
+  .head-col:first-child {
+    margin-top: 40px;
+  }
+
+  h1  {
+    font-size: 48px;
+    font-weight: 700;
+  } 
+  
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 400;
   }
 
 }
@@ -308,6 +353,21 @@
 @media all and (min-width:1440px) {
   .logo {
     margin-left: 9%;
+  }
+
+  h1  {
+    font-size: 48px;
+    font-weight: 700;
+  } 
+  
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 400;
   }
 
   .navbar {
