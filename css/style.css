@@ -8,10 +8,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-h1  {
+h1 {
   font-size: 48px;
   font-weight: 700;
-} 
+}
 
 h2 {
   font-size: 36px;
@@ -123,6 +123,10 @@ header {
   margin-top: 5%;
 }
 
+.why-col {
+  flex-basis: auto;
+}
+
 .main-title_text {
   font-size: 1rem;
   font-weight: 700;
@@ -225,7 +229,7 @@ header {
 .round-btn::after {
   content: '';
   width: 5%;
-  height: 135px;
+  height: 168px;
   background-color: #E4A13D;
   position: absolute;
   left: 47%;
@@ -235,7 +239,7 @@ header {
 }
 
 .round-btn2::after {
-  height: 159px;
+  height: 168px;
 }
 
 .how-it-works_title {
@@ -249,7 +253,7 @@ header {
 
 /* FOOTER */
 .signup-section {
-  background-image: linear-gradient(rgba(110, 156, 170, 0.89), rgba(110, 156, 170, 0.89)), url(./img/bg-footer.png);
+  background-image: linear-gradient(rgba(110, 156, 170, 0.89), rgba(110, 156, 170, 0.89)), url(../img/bg-footer.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
