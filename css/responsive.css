@@ -1,4 +1,14 @@
+/* These breakpoints are mainly for the first set of 3 pictures on the about us page  */
 @media all and (min-width: 768px) {
+  #top1,
+  #top2 {
+    margin-top: 50%;
+  }
+  #bottom {
+    margin-bottom: 40%;
+  }
+}
+@media all and (min-width: 990px) {
   #top1,
   #top2 {
     margin-top: 30%;
