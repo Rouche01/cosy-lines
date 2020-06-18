@@ -113,7 +113,7 @@ header {
 
 /* FOOTER */
 .signup-section {
-  background-image: linear-gradient(rgba(110, 156, 170, 0.89), rgba(110, 156, 170, 0.89)), url(./img/bg-footer.png);
+  background-image: linear-gradient(rgba(110, 156, 170, 0.89), rgba(110, 156, 170, 0.89)), url(../img/bg-footer.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
