@@ -26,6 +26,13 @@
     width: 100%;
     height: auto;
   }
+
+  .sign-up {
+    grid-column: 1/3;
+    font-size: 1.5rem;
+    font-weight: 700;
+    justify-self: center;
+  }
 }
 
 
@@ -127,10 +134,9 @@
   }
 
   .sign-up {
-
-    font-size: 1.5rem;
     grid-column: 1/3;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
     justify-self: center;
   }
 

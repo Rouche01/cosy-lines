@@ -121,11 +121,11 @@ header {
 }
 
 .sign-up {
-  font-size: 0.975rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 700;
   text-align: center;
-  padding-top: 1em;
-  line-height: 2;
+  padding: 1em .3em 0;
+  line-height: 1.5;
   color: #fff;
   margin-top: 5%;
 }
