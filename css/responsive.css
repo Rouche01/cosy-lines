@@ -1,0 +1,21 @@
+@media all and (min-width: 768px) {
+  #top1,
+  #top2 {
+    margin-top: 30%;
+  }
+  #bottom {
+    margin-bottom: 30%;
+  }
+}
+@media all and (min-width: 1440px) {
+  #top1,
+  #top2 {
+    margin-top: 0%;
+  }
+  .btn-primary {
+    margin-top: 8%;
+  }
+  .page-header {
+    margin-bottom: 5%;
+  }
+}

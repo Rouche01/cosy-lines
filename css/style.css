@@ -1,0 +1,52 @@
+.btn {
+  background-color: #6e9caa;
+  border: none;
+}
+img {
+  max-width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #6e9caa;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.carousel-inner {
+  box-shadow: 0px 5px 10px grey;
+}
+h2 {
+  font-size: 1rem;
+}
+h3 {
+  font-size: 0.8rem;
+}
+.image-set {
+  display: grid;
+  margin-top: 1%;
+  grid-template-areas:
+    "top1 top2"
+    "bottom bottom";
+  object-fit: cover;
+}
+#top1 {
+  grid-area: top1;
+  object-fit: cover;
+}
+#top2 {
+  grid-area: top2;
+}
+#bottom {
+  grid-area: bottom;
+  object-fit: cover;
+}
+.btn {
+  font-size: 0.8rem;
+}
+a {
+  font-size: 0.8rem;
+}
+.reviews-hr {
+  width: 25%;
+  background-color: #e4a13d;
+}
