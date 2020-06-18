@@ -8,10 +8,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-h1  {
+h1 {
   font-size: 48px;
   font-weight: 700;
-} 
+}
 
 h2 {
   font-size: 36px;
@@ -100,15 +100,155 @@ header {
 
 .btn-header:hover {
   color: #E4A13D;
-  border-color: #fff;
+  border-color: #E4A13D;
   background-color: #fff;
 }
 
 /* HEADER ENDS */
+
 /* WHY US SECTION */
 .why-us-img {
   width: 100%;
   height: auto;
+}
+
+.why-us_main-title {
+  text-align: center;
+  margin-top: 12%;
+
+}
+
+.secondrow {
+  text-align: left;
+  margin-top: 5%;
+}
+
+.why-col {
+  flex-basis: auto;
+}
+
+.main-title_text {
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  color: #222;
+}
+
+.main-title_text::after {
+  content: '';
+  width: 15%;
+  height: 4px;
+  background-color: #E4A13D;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  margin-left: 42%;
+
+}
+
+.main-title_p {
+  margin-top: 8%;
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.text-content {
+  margin-top: 5%;
+}
+
+.why-us_title {
+  position: relative;
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.why-us_title::after {
+  content: '';
+  width: 15%;
+  height: 4px;
+  background-color: #E4A13D;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.why-us_sub-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 14%;
+  color: #222;
+}
+
+.innertext_whyus {
+  color: #E4A13D;
+}
+
+.why-us_text {
+  margin-top: 6%;
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.btn-why-us {
+  color: #fff;
+  background-color: #E4A13D;
+  border-color: #E4A13D;
+  margin-top: 5%;
+}
+
+.btn-why-us:hover {
+  color: #E4A13D;
+  background: #fff;
+  box-shadow: 0 0 0 1px #E4A13D;
+}
+
+/* second part of why us section */
+
+.why-img-wrap {
+  display: none;
+}
+
+.second_sub-title {
+  margin-top: 5%;
+}
+
+/* HOW IT WORKS SECTION */
+.round-btn,
+.round-btn3 {
+  border-radius: 50%;
+  box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.25);
+  color: #E4A13D;
+  height: 3em;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.round-btn2 {
+  position: relative;
+  z-index: 1;
+}
+
+.round-btn::after {
+  content: '';
+  width: 5%;
+  height: 168px;
+  background-color: #E4A13D;
+  position: absolute;
+  left: 47%;
+  bottom: 0;
+  top: 104%;
+  right: 0;
+}
+
+.round-btn2::after {
+  height: 168px;
+}
+
+.how-it-works_title {
+  margin-top: 0;
+}
+
+.how-it-works_texts {
+  text-align: left;
+  margin-top: 4%;
 }
 
 /* FOOTER */
