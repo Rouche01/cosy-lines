@@ -108,6 +108,41 @@
     margin-top: 0;
   }
 
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+  .carousel {
+    display: none;
+  }
+
+  .non-slide-wrapper {
+    display: flex;
+    padding: 4%;
+    margin-top: 0;
+  }
+
+  .firstreview {
+    padding: 5px;
+  }
+
+  .secondpreview,
+  .thirdpreview {
+    margin-left: 2%;
+  }
+
+  .review-text {
+    font-size: 1rem;
+  }
+
+  .user-name,
+  .user-title {
+    font-size: 0.665rem;
+  }
+
+  .review-text::before {
+    height: 73px;
+    left: 3%;
+    top: 3%;
+  }
+
 
 }
 
@@ -264,6 +299,24 @@
     height: 131px;
   }
 
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+  .non-slide-wrapper {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .review-text::before {
+    height: 65px;
+    left: 0%;
+    top: 2%;
+  }
+
+  .user-name,
+  .user-title {
+    font-size: 0.765rem;
+  }
+
+
 
   /* FOOTER */
 
@@ -354,6 +407,17 @@
     font-weight: 400;
   }
 
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+
+  .review-text::before {
+    left: 0%;
+  }
+
+  .review-text {
+    font-size: 1.2rem;
+
+  }
+
 }
 
 @media all and (min-width:1440px) {
@@ -387,6 +451,22 @@
 
   .header-body_p {
     width: 70%;
+  }
+
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+
+  .review-text::before {
+    left: 3%;
+  }
+
+  .review-text {
+    font-size: 1.7rem;
+
+  }
+
+  .user-name,
+  .user-title {
+    font-size: 1rem;
   }
 
 }
