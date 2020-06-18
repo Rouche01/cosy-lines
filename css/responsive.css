@@ -40,6 +40,11 @@
 
   }
 
+  .why-col {
+    flex-basis: 0;
+  }
+
+
   .main-title_text::after {
     width: 12%;
     margin-left: 44%;
@@ -118,6 +123,7 @@
   /* navbar */
   .logo {
     font-size: 2rem;
+    margin-left: 2%;
 
   }
 
@@ -251,11 +257,11 @@
   }
 
   .round-btn::after {
-    height: 70px;
+    height: 122px;
   }
 
   .round-btn2::after {
-    height: 97px;
+    height: 131px;
   }
 
 
@@ -298,16 +304,16 @@
     margin-bottom: 3%;
   }
 
-  h1  {
+  h1 {
     font-size: 48px;
     font-weight: 700;
-  } 
-  
+  }
+
   h2 {
     font-size: 36px;
     font-weight: 700;
   }
-  
+
   p {
     font-size: 20px;
     font-weight: 400;
@@ -333,16 +339,16 @@
     margin-top: 40px;
   }
 
-  h1  {
+  h1 {
     font-size: 48px;
     font-weight: 700;
-  } 
-  
+  }
+
   h2 {
     font-size: 36px;
     font-weight: 700;
   }
-  
+
   p {
     font-size: 20px;
     font-weight: 400;
@@ -351,20 +357,17 @@
 }
 
 @media all and (min-width:1440px) {
-  .logo {
-    margin-left: 9%;
-  }
 
-  h1  {
+  h1 {
     font-size: 48px;
     font-weight: 700;
-  } 
-  
+  }
+
   h2 {
     font-size: 36px;
     font-weight: 700;
   }
-  
+
   p {
     font-size: 20px;
     font-weight: 400;
