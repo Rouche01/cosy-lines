@@ -14,7 +14,80 @@
   .btn-header {
     margin-bottom: 15%;
   }
+
+  /* WHY US SECTION */
+  .why-us_main-title {
+    margin-top: 5%;
+
+  }
+
+  .main-title_text::after {
+    width: 12%;
+    margin-left: 44%;
+  }
+
+  .main-title_text {
+    font-size: 1.275rem;
+  }
+
+  .main-title_p {
+    margin-top: 4%;
+  }
+
+  .why-us_sub-title {
+    margin-top: 5%;
+    font-size: 1.275rem;
+  }
+
+  .why-us_title::after {
+    width: 8%;
+  }
+
+  .why-us_text {
+    margin-top: 2%;
+  }
+
+  .btn-why-us {
+    margin-top: 0;
+  }
+
+  .secondrow {
+    margin-top: 0;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .how-col {
+    flex-basis: 0;
+  }
+
+  .thirdrow {
+    margin-top: 5%;
+  }
+
+  .sub-section {
+    margin-top: 0;
+  }
+
+  .text-content {
+    margin-top: 0;
+  }
+
+  .round-btn::after {
+    height: 131px;
+  }
+
+  .round-btn2::after {
+    height: 107px;
+  }
+
+  .how-it-works_title {
+    margin-top: 0;
+  }
+
+
 }
+
+
 
 
 @media all and (min-width:992px) {
@@ -39,7 +112,6 @@
   }
 
   .nav-link {
-
     position: relative;
   }
 
@@ -108,8 +180,72 @@
 
   }
 
+  /* second part of why us section */
+  .why-img-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-  /* footer */
+  .interior-img {
+    filter: brightness(50%);
+  }
+
+  .img1 {
+    margin-top: -8%;
+  }
+
+  .imagetext-wrap {
+    position: relative;
+  }
+
+  .imagetext {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+  }
+
+  .imagetext1 {
+    left: 34%;
+    font-weight: 600;
+  }
+
+  .imagetext2 {
+    top: 6%;
+    left: 34%;
+  }
+
+  .second-imagetext1 {
+    top: 5%;
+    left: 67%;
+    font-weight: 600;
+  }
+
+  .second-imagetext2 {
+    top: 11%;
+    left: 67%;
+  }
+
+
+  .anotherrow {
+    margin-top: 15%;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .round-btn,
+  .round-btn3 {
+    height: 5em;
+  }
+
+  .round-btn::after {
+    height: 70px;
+  }
+
+  .round-btn2::after {
+    height: 97px;
+  }
+
+
+  /* FOOTER */
 
 
   .signup-section {
