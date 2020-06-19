@@ -18,6 +18,10 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -55,6 +59,10 @@ header {
   font-weight: 700;
   line-height: 34px;
   font-size: 1.5rem;
+}
+
+header .home-hero {
+  padding-bottom: 60px;
 }
 
 .header-body_text {
@@ -113,7 +121,11 @@ header {
 
 .why-us_main-title {
   text-align: center;
-  margin-top: 12%;
+  margin-top: 15%;
+}
+
+.reverse-row {
+  flex-direction: column-reverse;
 }
 
 .secondrow {
@@ -168,8 +180,7 @@ header {
 }
 
 .why-us_sub-title {
-  font-size: 1rem;
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 14%;
   color: #222;
 }
@@ -226,7 +237,7 @@ header {
 .round-btn::after {
   content: "";
   width: 5%;
-  height: 168px;
+  height: 160px;
   background-color: #e4a13d;
   position: absolute;
   left: 47%;
@@ -236,7 +247,7 @@ header {
 }
 
 .round-btn2::after {
-  height: 168px;
+  height: 130px;
 }
 
 .how-it-works_title {
@@ -251,35 +262,23 @@ header {
 
 /* REVIEW SECTION */
 
-.firstreview {
-  background: #fff;
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
-  padding: 8%;
-
-}
-
-.user-details {
-  margin: auto;
-  padding: 7%;
-}
-
-.user {
-  padding: 1em;
-}
-
 .review-text {
   position: relative;
 }
 
-.review-text::before {
+.home-review {
+  margin-bottom: 100px;
+}
+
+.reviews-carousel .review-text::before {
   content: '';
   width: 2%;
   height: 90px;
   background-color: #E4A13D;
   position: absolute;
-  left: -5%;
+  left: 0;
   bottom: 0;
-  top: -20%;
+  top: 0;
   right: 0;
 }
 
@@ -338,7 +337,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 1px;
+  padding: 1px 15px;
 }
 
 /* ABOUT US CSS STARTS HERE */
@@ -457,7 +456,7 @@ img {
 
 .user-details {
   margin: auto;
-  margin-left: -20px;
+  margin-left: -30px;
 }
 
 .user-details p:first-child {
@@ -478,6 +477,18 @@ img {
   object-fit: cover;
 }
 
+.mobile-reviews .review-text::after {
+  content: '';
+  width: 2%;
+  height: 70px;
+  background-color: #E4A13D;
+  position: absolute;
+  left: -3%;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
 .review-text {
   font-size: 17px;
 }
@@ -488,7 +499,7 @@ img {
 
 .carousel-indicators {
   position: absolute;
-  bottom: -15%;
+  bottom: -22%;
 }
 
 .carousel-indicators li {
@@ -526,17 +537,9 @@ img {
 
 
 /* FOOTER */
-.signup-section {
-  background-image: linear-gradient(
-      rgba(110, 156, 170, 0.89),
-      rgba(110, 156, 170, 0.89)
-    ),
-    url(../img/bg-footer.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 1px;
-}
+
+.signup-section
+
 
 .sign-up {
   font-size: 1.25rem;

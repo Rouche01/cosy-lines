@@ -26,6 +26,10 @@
     height: auto;
   }
 
+  .reverse-row {
+    flex-direction: row;
+  }
+
   .sign-up {
     grid-column: 1/3;
     font-size: 1.5rem;
@@ -35,7 +39,7 @@
 
   /* WHY US SECTION */
   .why-us_main-title {
-    margin-top: 5%;
+    margin-top: 8%;
   }
 
   .why-col {
@@ -48,16 +52,18 @@
   }
 
   .main-title_text {
-    font-size: 1.275rem;
+    font-size: 2.15rem;
+    font-weight: 400;
   }
 
-  .main-title_p {
-    margin-top: 4%;
+  .why-us_main-title .main-title_p,  .why-col .why-us_title {
+    margin-top: 2%;
+    font-size: 24px;
   }
 
   .why-us_sub-title {
-    margin-top: 5%;
-    font-size: 1.275rem;
+    margin-top: 6%;
+    font-weight: 400;
   }
 
   .why-us_title::after {
@@ -74,6 +80,10 @@
 
   .secondrow {
     margin-top: 0;
+  }
+
+  .imagetext1, .imagetext2, .second-imagetext1, .second-imagetext2 {
+    font-size: 20px;
   }
 
   /* HOW IT WORKS SECTION */
@@ -248,24 +258,24 @@
   }
 
   .imagetext1 {
-    left: 34%;
+    left: 30%;
     font-weight: 600;
   }
 
   .imagetext2 {
     top: 6%;
-    left: 34%;
+    left: 30%;
   }
 
   .second-imagetext1 {
     top: 5%;
-    left: 67%;
+    left: 62%;
     font-weight: 600;
   }
 
   .second-imagetext2 {
     top: 11%;
-    left: 67%;
+    left: 62%;
   }
 
   .anotherrow {
@@ -275,15 +285,20 @@
   /* HOW IT WORKS SECTION */
   .round-btn,
   .round-btn3 {
-    height: 5em;
+    height: 4.7em;
+    font-size: 18px;
+  }
+
+  .round-btn2 {
+    font-size: 18px;
   }
 
   .round-btn::after {
-    height: 122px;
+    height: 150px;
   }
 
   .round-btn2::after {
-    height: 131px;
+    height: 123px;
   }
 
 
@@ -508,8 +523,8 @@
   }
 
   .user {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 
   .user-details p:first-child {
@@ -533,7 +548,8 @@
   }
 
   .firstreview {
-    padding: 5px;
+    /* padding: 5px; */
+    box-sizing: border-box;
   }
 
   .secondpreview,
@@ -542,9 +558,9 @@
   }
 
 
-/*   .review-text {
+/* .review-text {
     font-size: 1rem;
-  }
+  } */
 
   .user-name,
   .user-title {
@@ -596,16 +612,16 @@
 
 /*   .review-text::before {
     left: 3%;
-  }
+  }*/
 
   .review-text {
-    font-size: 1.7rem; */
+    font-size: 1.7rem; 
   }
 
-/*   .user-name,
+   .user-name,
   .user-title {
     font-size: 1rem;
-  } */
+  } 
 
 
 }
