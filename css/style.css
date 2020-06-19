@@ -149,6 +149,7 @@ header {
   margin-bottom: 13%;
 }
 
+
 .btn-footer:hover {
   color: #E4A13D;
   border-color: #fff;
@@ -190,4 +191,80 @@ header {
 
 .foot-logo {
   font-weight: 700;
+}
+
+
+/* SLIDER HIGHLIGHTED TEXT */
+.text-highlight{
+  color: #E4A13D;
+  }
+
+.card_div{
+  height: 145px;
+  margin-top: -20px;
+}
+
+.card_text{
+  line-height: 30px;
+  letter-spacing: 10px;
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+/* SHOP LISTINGS */
+.shop-nav-tabs{
+  border-bottom: none!important;
+} 
+
+.product-list img{
+  width: 100%;
+  height: 280px;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+}
+
+.product-list .pro-img-box {
+  position: relative;
+}
+.price {
+  background: #E4A13D;
+  width: 180px;
+  height: 50px;
+  color: #FFFFFF;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  left: 18%;
+  bottom: -25px;
+  position: absolute;
+}
+
+
+.pro-title {
+  color: #5A5A5A;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.fa.fa-bookmark, .fa.fa-shopping-cart{
+color: #6E9CAA;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #FFFFFF;
+}
+
+.panel_body{
+  background-color: #6E9CAA;
+}
+  
+ul li.active::after {
+    content: '';
+    width: 30%;
+    height: 5px;
+    background-color: #E4A13D;
+    position: absolute;
+    margin-left: 30%;
+    left: 0;
+    bottom: -5px;
 }
