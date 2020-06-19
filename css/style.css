@@ -14,12 +14,12 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -92,7 +92,6 @@ header {
   background-color: #e4a13d;
   border-color: #e4a13d;
   margin-top: 5%;
-  margin-bottom: 15%;
   transition: all 0.4s ease-in-out;
 }
 
@@ -101,7 +100,9 @@ header {
   border-color: #e4a13d;
   background-color: #fff;
 }
-.row
+
+
+/* .row */
 /* HEADER ENDS */
 
 /* WHY US SECTION */
@@ -247,6 +248,191 @@ header {
   margin-top: 4%;
 }
 
+
+/* ABOUT US CSS STARTS HERE */
+/* Read more button */
+
+/* ABOUT-US EXCERPT SECTION STYLES STARTS HERE */
+#about-excerpt {
+  margin-bottom: 30px;
+}
+
+#about-excerpt h4 {
+  font-size: 14px;
+  color: #E4A13D;
+}
+
+#about-excerpt h1.page-header {
+  font-size: 28px;
+}
+
+#about-excerpt .btn-header {
+  color: #fff;
+  background-color: #6E9CAA;
+  border-color: #6E9CAA;
+  margin-top: 1%;
+  transition: all 0.4s ease-in-out;
+}
+
+#about-excerpt .btn-header i {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+#about-excerpt .btn-header:hover {
+  color: #6E9CAA;
+  border-color: #6E9CAA;
+  background-color: #fff;
+}
+
+/* Image sizes */
+img {
+  max-width: 100%;
+}
+
+.image-set {
+  display: grid;
+  margin-top: 1%;
+  grid-template-areas:
+    "top1 top2"
+    "bottom bottom";
+  object-fit: cover;
+}
+#top1 {
+  grid-area: top1;
+  object-fit: cover;
+}
+#top2 {
+  grid-area: top2;
+  object-fit: cover;
+}
+#bottom {
+  grid-area: bottom;
+  object-fit: cover;
+  height: 160px;
+  width: 100%;
+}
+
+/* ABOUT-US PRODUCTS SECTION  STYLES */
+#products {
+  margin-top: 30px;
+}
+
+#products .row img {
+  height: 241px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#products .row h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#products .row a {
+  font-size: 18px;
+}
+
+
+/* ABOUT-US CLIENT REVIEW SECTION  STYLES */
+#client-reviews {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#client-reviews h2::after {
+  content: '';
+  background-color: #E4A13D;
+  width: 169px;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#client-reviews p.sub-head {
+  color: rgba(72, 72, 72, 0.6);
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.firstreview {
+  background: #fff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.user-details {
+  margin: auto;
+  margin-left: -20px;
+}
+
+.user-details p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-details p:nth-child(2) {
+  font-size: 14px;
+  margin: 0;
+}
+
+.user {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.review-text {
+  font-size: 17px;
+}
+
+#carouselExampleIndicators {
+  position: relative;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -15%;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #c4c4c4;
+}
+
+.carousel-indicators .active {
+  background-color: #e4a13d;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: hide;
+}
+
+.carousel-item {
+  padding: 16px;
+}
+
+.user-title,
+.review-text {
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.non-slide-wrapper {
+  display: none;
+}
+
+/* REVIEW SECTION ENDS */
+
+/* ABOUT US CSS ENDS HERE   */
+
+
 /* FOOTER */
 .signup-section {
   background-image: linear-gradient(
@@ -327,131 +513,3 @@ header {
 .foot-logo {
   font-weight: 700;
 }
-/* ABOUT US CSS STARTS HERE */
-/* Read more button */
-
-.page-header {
-  font-size: 1.5rem;
-}
-.btn {
-  background-color: #6e9caa;
-  border: none;
-}
-
-/* Image sizes */
-img {
-  max-width: 100%;
-}
-
-h2 {
-  font-size: 1rem;
-}
-h3 {
-  font-size: 0.8rem;
-}
-.image-set {
-  display: grid;
-  margin-top: 1%;
-  grid-template-areas:
-    "top1 top2"
-    "bottom bottom";
-  object-fit: cover;
-}
-#top1 {
-  grid-area: top1;
-  object-fit: cover;
-}
-#top2 {
-  grid-area: top2;
-}
-#bottom {
-  grid-area: bottom;
-  object-fit: cover;
-}
-.btn {
-  font-size: 0.8rem;
-}
-a {
-  font-size: 0.8rem;
-}
-.reviews-hr {
-  width: 25%;
-  background-color: #e4a13d;
-  margin: auto;
-}
-/* REVIEW SECTION */
-
-.firstreview {
-  background: #fff;
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
-  padding: 8%;
-}
-
-.user-details {
-  margin: auto;
-  padding: 7%;
-}
-
-.user {
-  padding: 1em;
-}
-
-.review-text {
-  position: relative;
-}
-
-.review-text::before {
-  content: "";
-  width: 2%;
-  height: 90px;
-  background-color: #e4a13d;
-  position: absolute;
-  left: -5%;
-  bottom: 0;
-  top: -20%;
-  right: 0;
-}
-
-.carousel-indicators li {
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  background-color: #c4c4c4;
-}
-
-.carousel-indicators .active {
-  background-color: #e4a13d;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  display: hide;
-}
-
-.carousel-item {
-  padding: 16px;
-}
-
-.user-name,
-.user-title {
-  margin: 0;
-  font-size: 0.775rem;
-}
-
-.user-name {
-  font-weight: 700;
-  color: #222;
-}
-
-.user-title,
-.review-text {
-  color: rgba(72, 72, 72, 0.6);
-}
-
-.non-slide-wrapper {
-  display: none;
-}
-
-/* REVIEW SECTION ENDS */
-
-/* ABOUT US CSS ENDS HERE   */

@@ -370,9 +370,39 @@
     width: 70%;
   }
 }
+
+
 /* ABOUT US BREAKPOINTS START HERE  */
 /* These breakpoints are mainly for the first set of 3 pictures on the about us page  */
 @media all and (min-width: 768px) {
+  #about-excerpt {
+    margin-bottom: -80px;
+  }
+
+  #about-excerpt h4 {
+    font-size: 18px;
+  }
+
+  #about-excerpt h1.page-header {
+    font-size: 36px;
+  }
+
+  #about-excerpt .btn-header {
+    margin-top: 5%;
+  }
+
+  #bottom {
+    height: 241px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
   #top1,
   #top2 {
     margin-top: 0%;
@@ -380,6 +410,49 @@
   #bottom {
     margin-bottom: 40%;
   }
+
+/* ABOUT-US PRODUCTS STARTS HERE */
+  #products {
+    margin-top: unset;
+  }
+
+  #products .row h2 {
+    font-size: 24px;
+  }
+
+  #products .row a {
+    font-size: 20px;
+  }
+
+
+  /* ABOUT-US CLIENTS REVIEWS STARTS HERE */
+
+  #client-reviews {
+    margin-top: 110px;
+  }
+
+  #client-reviews p.sub-head {
+    font-size: 24px;
+  }
+
+  .review-text {
+    font-size: 20px;
+  }
+
+  .user {
+    width: 100px;
+    height: 100px;
+  }
+
+  .user-details p:first-child {
+    font-size: 20px;
+  }
+
+  .user-details p:nth-child(2) {
+    font-size: 16px;
+  }
+
+
   /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
   .carousel {
     display: none;
@@ -400,20 +473,11 @@
     margin-left: 2%;
   }
 
-  .review-text {
-    font-size: 1rem;
-  }
-
   .user-name,
   .user-title {
     font-size: 0.665rem;
   }
 
-  .review-text::before {
-    height: 73px;
-    left: 3%;
-    top: 3%;
-  }
 }
 @media all and (min-width: 990px) {
   #top1,
@@ -427,12 +491,6 @@
   .non-slide-wrapper {
     margin-top: 5%;
     margin-bottom: 10%;
-  }
-
-  .review-text::before {
-    height: 65px;
-    left: 0%;
-    top: 2%;
   }
 
   .user-name,
