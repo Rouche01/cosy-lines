@@ -249,6 +249,98 @@ header {
 }
 
 
+/* REVIEW SECTION */
+
+.firstreview {
+  background: #fff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  padding: 8%;
+
+}
+
+.user-details {
+  margin: auto;
+  padding: 7%;
+}
+
+.user {
+  padding: 1em;
+}
+
+.review-text {
+  position: relative;
+}
+
+.review-text::before {
+  content: '';
+  width: 2%;
+  height: 90px;
+  background-color: #E4A13D;
+  position: absolute;
+  left: -5%;
+  bottom: 0;
+  top: -20%;
+  right: 0;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #C4C4C4;
+
+}
+
+.carousel-indicators .active {
+  background-color: #E4A13D;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: hide;
+}
+
+.carousel-item {
+  padding: 16px;
+}
+
+.user-name,
+.user-title {
+  margin: 0;
+  font-size: 0.775rem;
+}
+
+
+.user-name {
+  font-weight: 700;
+  color: #222;
+}
+
+.user-title,
+.review-text {
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.non-slide-wrapper {
+  display: none;
+}
+
+
+/* REVIEW SECTION ENDS */
+
+/* FOOTER */
+.signup-section {
+  background-image: linear-gradient(
+      rgba(110, 156, 170, 0.89),
+      rgba(110, 156, 170, 0.89)
+    ),
+    url(../img/bg-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 1px;
+}
+
 /* ABOUT US CSS STARTS HERE */
 /* Read more button */
 
