@@ -539,3 +539,613 @@
           bottom: -5px;
       }
       /* SHOP PAGE CSS ENDS HERE */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Mobile first approach */
+
+/* HEADER */
+
+header {
+  padding: 1px;
+  background: rgba(110, 156, 170, 0.89);
+}
+
+.navbar {
+  background: rgba(110, 156, 170, 0) !important;
+  padding-top: 1em;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.cart {
+  cursor: pointer;
+}
+
+.logo,
+.nav-item,
+.nav-link {
+  color: #fff !important;
+}
+
+.logo {
+  font-weight: 700;
+  line-height: 34px;
+  font-size: 1.5rem;
+}
+
+header .home-hero {
+  padding-bottom: 60px;
+}
+
+.header-body_text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 2.2rem;
+}
+
+.innertext {
+  color: #e4a13d;
+  font-weight: 700;
+}
+
+.head-col {
+  flex-basis: auto;
+}
+
+.row {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.header-body_p {
+  color: #fff;
+  margin-top: 8%;
+}
+
+.header-img {
+  display: none;
+}
+
+.btn-header {
+  color: #fff;
+  background-color: #e4a13d;
+  border-color: #e4a13d;
+  margin-top: 5%;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-header:hover {
+  color: #e4a13d;
+  border-color: #e4a13d;
+  background-color: #fff;
+}
+
+
+/* .row */
+/* HEADER ENDS */
+
+/* WHY US SECTION */
+.why-us-img {
+  width: 100%;
+  height: auto;
+}
+
+.why-us_main-title {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.reverse-row {
+  flex-direction: column-reverse;
+}
+
+.secondrow {
+  text-align: left;
+  margin-top: 5%;
+}
+
+.why-col {
+  flex-basis: auto;
+}
+
+.main-title_text {
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  color: #222;
+}
+
+.main-title_text::after {
+  content: "";
+  width: 15%;
+  height: 4px;
+  background-color: #e4a13d;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  margin-left: 42%;
+}
+
+.main-title_p {
+  margin-top: 8%;
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.text-content {
+  margin-top: 5%;
+}
+
+.why-us_title {
+  position: relative;
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.why-us_title::after {
+  content: "";
+  width: 15%;
+  height: 4px;
+  background-color: #e4a13d;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.why-us_sub-title {
+  font-weight: 400;
+  margin-top: 14%;
+  color: #222;
+}
+
+.innertext_whyus {
+  color: #e4a13d;
+}
+
+.why-us_text {
+  margin-top: 6%;
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.btn-why-us {
+  color: #fff;
+  background-color: #e4a13d;
+  border-color: #e4a13d;
+  margin-top: 5%;
+}
+
+.btn-why-us:hover {
+  color: #e4a13d;
+  background: #fff;
+  box-shadow: 0 0 0 1px #e4a13d;
+}
+
+/* second part of why us section */
+
+.why-img-wrap {
+  display: none;
+}
+
+.second_sub-title {
+  margin-top: 5%;
+}
+
+/* HOW IT WORKS SECTION */
+.round-btn,
+.round-btn3 {
+  border-radius: 50%;
+  box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.25);
+  color: #e4a13d;
+  height: 3em;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.round-btn2 {
+  position: relative;
+  z-index: 1;
+}
+
+.round-btn::after {
+  content: "";
+  width: 5%;
+  height: 160px;
+  background-color: #e4a13d;
+  position: absolute;
+  left: 47%;
+  bottom: 0;
+  top: 104%;
+  right: 0;
+}
+
+.round-btn2::after {
+  height: 130px;
+}
+
+.how-it-works_title {
+  margin-top: 0;
+}
+
+.how-it-works_texts {
+  text-align: left;
+  margin-top: 4%;
+}
+
+
+/* REVIEW SECTION */
+
+.review-text {
+  position: relative;
+}
+
+.home-review {
+  margin-bottom: 100px;
+}
+
+.reviews-carousel .review-text::before {
+  content: '';
+  width: 2%;
+  height: 90px;
+  background-color: #E4A13D;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #C4C4C4;
+
+}
+
+.carousel-indicators .active {
+  background-color: #E4A13D;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: hide;
+}
+
+.carousel-item {
+  padding: 16px;
+}
+
+.user-name,
+.user-title {
+  margin: 0;
+  font-size: 0.775rem;
+}
+
+
+.user-name {
+  font-weight: 700;
+  color: #222;
+}
+
+.user-title,
+.review-text {
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.non-slide-wrapper {
+  display: none;
+}
+
+
+/* REVIEW SECTION ENDS */
+
+/* FOOTER */
+.signup-section {
+  background-image: linear-gradient(
+      rgba(110, 156, 170, 0.89),
+      rgba(110, 156, 170, 0.89)
+    ),
+    url(../img/bg-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 1px 15px;
+}
+
+/* ABOUT US CSS STARTS HERE */
+/* Read more button */
+
+/* ABOUT-US EXCERPT SECTION STYLES STARTS HERE */
+#about-excerpt {
+  margin-bottom: 30px;
+}
+
+#about-excerpt h4 {
+  font-size: 14px;
+  color: #E4A13D;
+}
+
+#about-excerpt h1.page-header {
+  font-size: 28px;
+}
+
+#about-excerpt .btn-header {
+  color: #fff;
+  background-color: #6E9CAA;
+  border-color: #6E9CAA;
+  margin-top: 1%;
+  transition: all 0.4s ease-in-out;
+}
+
+#about-excerpt .btn-header i {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+#about-excerpt .btn-header:hover {
+  color: #6E9CAA;
+  border-color: #6E9CAA;
+  background-color: #fff;
+}
+
+/* Image sizes */
+img {
+  max-width: 100%;
+}
+
+.image-set {
+  display: grid;
+  margin-top: 1%;
+  grid-template-areas:
+    "top1 top2"
+    "bottom bottom";
+  object-fit: cover;
+}
+#top1 {
+  grid-area: top1;
+  object-fit: cover;
+}
+#top2 {
+  grid-area: top2;
+  object-fit: cover;
+}
+#bottom {
+  grid-area: bottom;
+  object-fit: cover;
+  height: 160px;
+  width: 100%;
+}
+
+/* ABOUT-US PRODUCTS SECTION  STYLES */
+#products {
+  margin-top: 30px;
+}
+
+#products .row img {
+  height: 241px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#products .row h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#products .row a {
+  font-size: 18px;
+}
+
+
+/* ABOUT-US CLIENT REVIEW SECTION  STYLES */
+#client-reviews {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#client-reviews h2::after {
+  content: '';
+  background-color: #E4A13D;
+  width: 169px;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#client-reviews p.sub-head {
+  color: rgba(72, 72, 72, 0.6);
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.firstreview {
+  background: #fff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.user-details {
+  margin: auto;
+  margin-left: -30px;
+}
+
+.user-details p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-details p:nth-child(2) {
+  font-size: 14px;
+  margin: 0;
+}
+
+.user {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.mobile-reviews .review-text::after {
+  content: '';
+  width: 2%;
+  height: 70px;
+  background-color: #E4A13D;
+  position: absolute;
+  left: -3%;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+.review-text {
+  font-size: 17px;
+}
+
+#carouselExampleIndicators {
+  position: relative;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -22%;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #c4c4c4;
+}
+
+.carousel-indicators .active {
+  background-color: #e4a13d;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: hide;
+}
+
+.carousel-item {
+  padding: 16px;
+}
+
+.user-title,
+.review-text {
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.non-slide-wrapper {
+  display: none;
+}
+
+/* REVIEW SECTION ENDS */
+
+/* ABOUT US CSS ENDS HERE   */
+
+
+/* FOOTER */
+
+.signup-section
+
+
+.sign-up {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em 0.3em 0;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.sign-input {
+  width: 90%;
+  padding: 2%;
+  text-align: center;
+  margin-top: 5%;
+  border: 0;
+  outline: 0;
+}
+
+.btn-footer {
+  color: #fff;
+  background-color: #e4a13d;
+  border-color: #e4a13d;
+  transition: all 0.4s ease-in-out;
+  margin-top: 5%;
+  width: 30%;
+  margin-bottom: 13%;
+}
+
+.btn-footer:hover {
+  color: #e4a13d;
+  border-color: #fff;
+  background-color: #fff;
+}
+
+.footer-list {
+  background: #7ea7b3;
+  padding: 1px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.footlink {
+  color: #fff;
+  margin-top: 4%;
+  transition: all 0.4s ease;
+}
+
+.footlink:hover {
+  color: #e4a13d;
+  text-decoration: none;
+}
+
+.copy {
+  color: #fff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.foot-logo {
+  font-weight: 700;
+}
+
