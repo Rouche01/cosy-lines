@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -57,7 +57,6 @@ header {
   font-size: 1.5rem;
 }
 
-
 .header-body_text {
   color: #fff;
   font-weight: 700;
@@ -66,9 +65,8 @@ header {
 }
 
 .innertext {
-  color: #E4A13D;
+  color: #e4a13d;
   font-weight: 700;
-
 }
 
 .head-col {
@@ -77,7 +75,7 @@ header {
 
 .row {
   text-align: center;
-  margin-top: 14%;
+  margin-top: 5%;
 }
 
 .header-body_p {
@@ -91,19 +89,19 @@ header {
 
 .btn-header {
   color: #fff;
-  background-color: #E4A13D;
-  border-color: #E4A13D;
+  background-color: #e4a13d;
+  border-color: #e4a13d;
   margin-top: 5%;
   margin-bottom: 15%;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-header:hover {
-  color: #E4A13D;
-  border-color: #E4A13D;
+  color: #e4a13d;
+  border-color: #e4a13d;
   background-color: #fff;
 }
-
+.row
 /* HEADER ENDS */
 
 /* WHY US SECTION */
@@ -115,7 +113,6 @@ header {
 .why-us_main-title {
   text-align: center;
   margin-top: 12%;
-
 }
 
 .secondrow {
@@ -135,15 +132,14 @@ header {
 }
 
 .main-title_text::after {
-  content: '';
+  content: "";
   width: 15%;
   height: 4px;
-  background-color: #E4A13D;
+  background-color: #e4a13d;
   position: absolute;
   left: 0;
   bottom: -10px;
   margin-left: 42%;
-
 }
 
 .main-title_p {
@@ -161,10 +157,10 @@ header {
 }
 
 .why-us_title::after {
-  content: '';
+  content: "";
   width: 15%;
   height: 4px;
-  background-color: #E4A13D;
+  background-color: #e4a13d;
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -178,7 +174,7 @@ header {
 }
 
 .innertext_whyus {
-  color: #E4A13D;
+  color: #e4a13d;
 }
 
 .why-us_text {
@@ -188,15 +184,15 @@ header {
 
 .btn-why-us {
   color: #fff;
-  background-color: #E4A13D;
-  border-color: #E4A13D;
+  background-color: #e4a13d;
+  border-color: #e4a13d;
   margin-top: 5%;
 }
 
 .btn-why-us:hover {
-  color: #E4A13D;
+  color: #e4a13d;
   background: #fff;
-  box-shadow: 0 0 0 1px #E4A13D;
+  box-shadow: 0 0 0 1px #e4a13d;
 }
 
 /* second part of why us section */
@@ -214,7 +210,7 @@ header {
 .round-btn3 {
   border-radius: 50%;
   box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.25);
-  color: #E4A13D;
+  color: #e4a13d;
   height: 3em;
   width: 100%;
   position: relative;
@@ -227,10 +223,10 @@ header {
 }
 
 .round-btn::after {
-  content: '';
+  content: "";
   width: 5%;
   height: 168px;
-  background-color: #E4A13D;
+  background-color: #e4a13d;
   position: absolute;
   left: 47%;
   bottom: 0;
@@ -332,7 +328,11 @@ header {
 
 /* FOOTER */
 .signup-section {
-  background-image: linear-gradient(rgba(110, 156, 170, 0.89), rgba(110, 156, 170, 0.89)), url(../img/bg-footer.png);
+  background-image: linear-gradient(
+      rgba(110, 156, 170, 0.89),
+      rgba(110, 156, 170, 0.89)
+    ),
+    url(../img/bg-footer.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -343,7 +343,7 @@ header {
   font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
-  padding: 1em .3em 0;
+  padding: 1em 0.3em 0;
   line-height: 1.5;
   color: #fff;
   margin-top: 5%;
@@ -360,23 +360,22 @@ header {
 
 .btn-footer {
   color: #fff;
-  background-color: #E4A13D;
-  border-color: #E4A13D;
-  transition: all .4s ease-in-out;
+  background-color: #e4a13d;
+  border-color: #e4a13d;
+  transition: all 0.4s ease-in-out;
   margin-top: 5%;
   width: 30%;
   margin-bottom: 13%;
 }
 
 .btn-footer:hover {
-  color: #E4A13D;
+  color: #e4a13d;
   border-color: #fff;
   background-color: #fff;
-
 }
 
 .footer-list {
-  background: #7EA7B3;
+  background: #7ea7b3;
   padding: 1px;
   text-align: center;
 }
@@ -390,13 +389,11 @@ header {
 .footlink {
   color: #fff;
   margin-top: 4%;
-  transition: all .4s ease;
-
-
+  transition: all 0.4s ease;
 }
 
 .footlink:hover {
-  color: #E4A13D;
+  color: #e4a13d;
   text-decoration: none;
 }
 
@@ -404,9 +401,136 @@ header {
   color: #fff;
   margin-top: 10%;
   margin-bottom: 10%;
-
 }
 
 .foot-logo {
   font-weight: 700;
 }
+/* ABOUT US CSS STARTS HERE */
+/* Read more button */
+
+.page-header {
+  font-size: 1.5rem;
+}
+.btn {
+  background-color: #6e9caa;
+  border: none;
+}
+
+/* Image sizes */
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 1rem;
+}
+h3 {
+  font-size: 0.8rem;
+}
+.image-set {
+  display: grid;
+  margin-top: 1%;
+  grid-template-areas:
+    "top1 top2"
+    "bottom bottom";
+  object-fit: cover;
+}
+#top1 {
+  grid-area: top1;
+  object-fit: cover;
+}
+#top2 {
+  grid-area: top2;
+}
+#bottom {
+  grid-area: bottom;
+  object-fit: cover;
+}
+.btn {
+  font-size: 0.8rem;
+}
+a {
+  font-size: 0.8rem;
+}
+.reviews-hr {
+  width: 25%;
+  background-color: #e4a13d;
+  margin: auto;
+}
+/* REVIEW SECTION */
+
+.firstreview {
+  background: #fff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  padding: 8%;
+}
+
+.user-details {
+  margin: auto;
+  padding: 7%;
+}
+
+.user {
+  padding: 1em;
+}
+
+.review-text {
+  position: relative;
+}
+
+.review-text::before {
+  content: "";
+  width: 2%;
+  height: 90px;
+  background-color: #e4a13d;
+  position: absolute;
+  left: -5%;
+  bottom: 0;
+  top: -20%;
+  right: 0;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #c4c4c4;
+}
+
+.carousel-indicators .active {
+  background-color: #e4a13d;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: hide;
+}
+
+.carousel-item {
+  padding: 16px;
+}
+
+.user-name,
+.user-title {
+  margin: 0;
+  font-size: 0.775rem;
+}
+
+.user-name {
+  font-weight: 700;
+  color: #222;
+}
+
+.user-title,
+.review-text {
+  color: rgba(72, 72, 72, 0.6);
+}
+
+.non-slide-wrapper {
+  display: none;
+}
+
+/* REVIEW SECTION ENDS */
+
+/* ABOUT US CSS ENDS HERE   */
