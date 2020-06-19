@@ -1,7 +1,6 @@
 /* MEDIA QUERIES FOR 700PX AND ABOVE */
 
-@media all and (min-width:700px) {
-
+@media all and (min-width: 700px) {
   .container {
     max-width: 800px;
   }
@@ -37,13 +36,11 @@
   /* WHY US SECTION */
   .why-us_main-title {
     margin-top: 5%;
-
   }
 
   .why-col {
     flex-basis: 0;
   }
-
 
   .main-title_text::after {
     width: 12%;
@@ -107,15 +104,9 @@
   .how-it-works_title {
     margin-top: 0;
   }
-
-
 }
 
-
-
-
-@media all and (min-width:992px) {
-
+@media all and (min-width: 992px) {
   .container {
     max-width: 960px;
   }
@@ -124,7 +115,6 @@
   .logo {
     font-size: 2rem;
     margin-left: 2%;
-
   }
 
   .navbar {
@@ -136,7 +126,6 @@
 
   .nav-item {
     margin-left: 24px;
-
   }
 
   .nav-link {
@@ -144,18 +133,18 @@
   }
 
   .nav-link::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 5px;
-    background-color: #E4A13D;
+    background-color: #e4a13d;
     position: absolute;
     left: 0;
     bottom: -25px;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav-link:hover::after {
-    color: #E4A13D !important;
+    color: #e4a13d !important;
     transform: translateY(-25px);
   }
 
@@ -179,7 +168,6 @@
     text-align: left;
     line-height: 3.8rem;
     padding: 0;
-
   }
 
   .header-body_text {
@@ -245,7 +233,6 @@
     left: 67%;
   }
 
-
   .anotherrow {
     margin-top: 15%;
   }
@@ -264,9 +251,7 @@
     height: 131px;
   }
 
-
   /* FOOTER */
-
 
   .signup-section {
     display: grid;
@@ -318,11 +303,9 @@
     font-size: 20px;
     font-weight: 400;
   }
-
-
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width: 1200px) {
   .header-body_p {
     width: 75%;
   }
@@ -353,11 +336,9 @@
     font-size: 20px;
     font-weight: 400;
   }
-
 }
 
-@media all and (min-width:1440px) {
-
+@media all and (min-width: 1440px) {
   h1 {
     font-size: 48px;
     font-weight: 700;
@@ -388,5 +369,111 @@
   .header-body_p {
     width: 70%;
   }
-
 }
+/* ABOUT US BREAKPOINTS START HERE  */
+/* These breakpoints are mainly for the first set of 3 pictures on the about us page  */
+@media all and (min-width: 768px) {
+  #top1,
+  #top2 {
+    margin-top: 0%;
+  }
+  #bottom {
+    margin-bottom: 40%;
+  }
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+  .carousel {
+    display: none;
+  }
+
+  .non-slide-wrapper {
+    display: flex;
+    padding: 4%;
+    margin-top: 0;
+  }
+
+  .firstreview {
+    padding: 5px;
+  }
+
+  .secondpreview,
+  .thirdpreview {
+    margin-left: 2%;
+  }
+
+  .review-text {
+    font-size: 1rem;
+  }
+
+  .user-name,
+  .user-title {
+    font-size: 0.665rem;
+  }
+
+  .review-text::before {
+    height: 73px;
+    left: 3%;
+    top: 3%;
+  }
+}
+@media all and (min-width: 990px) {
+  #top1,
+  #top2 {
+    margin-top: 0%;
+  }
+  #bottom {
+    margin-bottom: 30%;
+  }
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+  .non-slide-wrapper {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .review-text::before {
+    height: 65px;
+    left: 0%;
+    top: 2%;
+  }
+
+  .user-name,
+  .user-title {
+    font-size: 0.765rem;
+  }
+}
+
+@media all and (min-wid: 1200px) {
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+
+  .review-text::before {
+    left: 0%;
+  }
+
+  .review-text {
+    font-size: 1.2rem;
+  }
+}
+@media all and (min-width: 1440px) {
+  #top1,
+  #top2 {
+    margin-top: 0%;
+  }
+
+  .page-header {
+    margin-bottom: 1%;
+  }
+  /* NON SLIDE REVIEW FOR DESKTOP AND TAB STARTS HERE */
+
+  .review-text::before {
+    left: 3%;
+  }
+
+  .review-text {
+    font-size: 1.7rem;
+  }
+
+  .user-name,
+  .user-title {
+    font-size: 1rem;
+  }
+}
+/* ABOUT US BREAKPOINTS END HERE  */
