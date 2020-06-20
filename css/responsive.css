@@ -193,6 +193,26 @@
     color: #E4A13D !important;
     transform: translateY(-25px);
   }
+  .activenav {
+    position: relative;
+  }
+
+  .activenav:hover::after {
+    transform: none;
+    pointer-events: none;
+
+  }
+
+  .activenav::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #E4A13D;
+    position: absolute;
+    left: 0;
+    bottom: 1%;
+
+  }
 
   .navbar-collapse {
     flex-grow: 0;
