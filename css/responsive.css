@@ -718,3 +718,210 @@
     }
 
 }
+
+/* CONTACT PAGE CSS STARTS HERE */
+@media all and (min-width: 700px) {
+  .container {
+    max-width: 800px;
+  }
+
+  /* Map Frame Styles Starts Here */
+  #map-frame {
+    padding-top: 70px;
+  }
+
+  .contact-header::before {
+    content: '';
+    background-color: #e4a13d;
+    width: 160px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+
+  #map-frame iframe {
+    margin-top: 30px;
+    height: 300px;
+  }
+  
+  .contact-header {
+    font-size: 42px;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    padding-left: 18px;
+  }
+
+  /* Contact Form Styles Starts Here */
+
+  .form-btn {
+    background-color: #6E9CAA;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 2px solid #6E9CAA;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .form-btn:hover {
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #6E9CAA;
+    color: #6E9CAA;
+  }
+
+  #contact-form input {
+    font-size: 20px;
+    padding: 22px 18px;
+  }
+
+  #contact-form textarea {
+    font-size: 20px;
+    height: 178px;
+    padding-left: 22px;
+  }
+
+  /* Contact Information Styles Starts Here */
+
+  #contact-info {
+    padding-bottom: 20px;
+  }
+
+  #contact-info .contacts {
+    position: unset;
+  }
+
+  #contact-info .address-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #6E9CAA;
+    border-radius: 100%;
+    margin-left: 0px;
+  }
+
+  #contact-info h3 {
+    font-size: 24px;
+  }
+
+  #contact-info p {
+    font-size: 16px;
+  }
+
+  #contact-info .address-icon i {
+    font-size: 20px;
+    color: #fff;  
+  }
+
+  #contact-info p span {
+    display: block;
+  }
+
+}
+
+@media all and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* Map Frame Styles Starts Here */
+  #map-frame {
+    padding-top: 70px;
+  }
+
+  .contact-header::before {
+    margin-left: 0;
+    margin-bottom: 22px;
+  }
+
+  #map-frame iframe {
+    margin-top: 40px;
+    height: 450px;
+  }
+  
+  .contact-header {
+    font-size: 42px;
+    width: 45%;
+    text-align: left;
+  }
+
+  /* Contact Form Styles Starts Here */
+
+  .form-btn:hover {
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #6E9CAA;
+    color: #6E9CAA;
+  }
+
+  /* Contact Information Styles Starts Here */
+
+  #contact-info {
+    padding-bottom: 40px;
+  }
+
+  #contact-info .address-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  #contact-info .address-icon i {
+    font-size: 24px;
+    color: #fff;  
+  }
+
+}
+
+
+@media all and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  /* Map Frame Styles Starts Here */
+
+  .contact-header::before {
+    content: '';
+    background-color: #e4a13d;
+    width: 160px;
+    height: 4px;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 22px;
+  }
+
+  #map-frame iframe {
+    margin-top: 40px;
+    height: 450px;
+  }
+  
+  .contact-header {
+    font-size: 42px;
+    font-weight: normal;
+    width: 33%;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  /* Contact Form Styles Starts Here */
+
+  /* Contact Information Styles Starts Here */
+
+  #contact-info {
+    padding-bottom: 40px;
+  }
+
+  #contact-info .address-icon i {
+    font-size: 24px;
+    color: #fff;  
+  }
+
+  #contact-info h3 {
+    font-size: 28px;
+  }
+
+  #contact-info p {
+    font-size: 18px;
+  }
+}

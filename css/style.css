@@ -715,4 +715,71 @@ color: #6E9CAA;
 /* SHOP PAGE CSS ENDS HERE */
 
 
+/* Contact Form Styles Starts Here */
 
+.form-btn {
+  background-color: #6E9CAA;
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 2px solid #6E9CAA;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-btn:hover {
+  background-color: rgba(0,0,0,0);
+  border: 2px solid #6E9CAA;
+  color: #6E9CAA;
+}
+
+#contact-form input {
+  font-size: 16px;
+  padding: 22px 18px;
+  background: #F9FBFC;
+}
+
+#contact-form input::placeholder {
+  color: #B8B3B3;
+}
+
+#contact-form textarea {
+  font-size: 16px;
+  height: 178px;
+  padding-left: 22px;
+  padding-top: 10px;
+}
+
+#contact-form textarea:focus, #contact-form input:focus {
+  border-color: #6E9CAA;
+  box-shadow: none;
+}
+
+#contact-form textarea::placeholder {
+  color: #B8B3B3;
+}
+
+/* Contact Information Styles Starts Here */
+
+#contact-info {
+  padding-bottom: 40px;
+}
+
+#contact-info .address-icon {
+  width: 65px;
+  height: 65px;
+  background-color: #6E9CAA;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+#contact-info .address-icon i {
+  font-size: 20px;
+  color: #fff;  
+}
+
+#contact-info p span {
+  display: block;
+}
