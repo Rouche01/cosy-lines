@@ -710,20 +710,20 @@ color: #6E9CAA;
 .panel_body {
   background-color: #6E9CAA;
 }
-  
-
 
 /* SHOP PAGE CSS ENDS HERE */
+
+
 
 /* CONTACT PAGE CSS STARTS HERE */
 
 
-/* .container {
+.container {
   max-width: 1200px;
-} */
+}
 
 /* Map Frame Styles Starts Here */
-/* #map-frame {
+#map-frame {
   padding-top: 30px;
 }
 
@@ -760,11 +760,11 @@ color: #6E9CAA;
   width: 100%;
   text-align: center;
   color: #484848;
-} */
+}
 
 /* Contact Form Styles Starts Here */
 
-/* .form-btn {
+.form-btn {
   background-color: #6E9CAA;
   border-radius: 5px;
   width: 100%;
@@ -806,11 +806,11 @@ color: #6E9CAA;
 
 #contact-form textarea::placeholder {
   color: #B8B3B3;
-} */
+}
 
 /* Contact Information Styles Starts Here */
 
-/* #contact-info {
+#contact-info {
   padding-bottom: 40px;
 }
 
@@ -829,9 +829,4 @@ color: #6E9CAA;
 
 #contact-info p span {
   display: block;
-} */
-
-
-
-
-
+}

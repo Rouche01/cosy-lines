@@ -1,6 +1,6 @@
  /* MEDIA QUERIES FOR 700PX AND ABOVE */
 
-@media all and (min-width: 700px) {
+ @media all and (min-width: 700px) {
   .container {
     max-width: 800px;
   }
@@ -742,13 +742,14 @@
 }
 
 /* CONTACT PAGE CSS STARTS HERE */
-/* @media all and (min-width: 700px) {
+
+@media all and (min-width: 700px) {
   .container {
     max-width: 800px;
   }
 
   /* Map Frame Styles Starts Here */
-  /*#map-frame {
+  #map-frame {
     padding-top: 70px;
   }
 
@@ -773,11 +774,11 @@
     width: 100%;
     text-align: center;
     padding-left: 18px;
-  } */
+  }
 
   /* Contact Form Styles Starts Here */
 
-  /* .form-btn {
+  .form-btn {
     background-color: #6E9CAA;
     border-radius: 5px;
     width: 100%;
@@ -804,11 +805,11 @@
     font-size: 20px;
     height: 178px;
     padding-left: 22px;
-  } */
+  }
 
   /* Contact Information Styles Starts Here */
 
-  /* #contact-info {
+  #contact-info {
     padding-bottom: 20px;
   }
 
@@ -846,10 +847,10 @@
 @media all and (min-width: 992px) {
   .container {
     max-width: 960px;
-  } */
+  }
 
   /* Map Frame Styles Starts Here */
-  /* #map-frame {
+  #map-frame {
     padding-top: 70px;
   }
 
@@ -871,15 +872,15 @@
 
   /* Contact Form Styles Starts Here */
 
-  /*.form-btn:hover {
+  .form-btn:hover {
     background-color: rgba(0,0,0,0);
     border: 2px solid #6E9CAA;
     color: #6E9CAA;
-  } */
+  }
 
   /* Contact Information Styles Starts Here */
 
-  /* #contact-info {
+  #contact-info {
     padding-bottom: 40px;
   }
 
@@ -903,7 +904,7 @@
 
   /* Map Frame Styles Starts Here */
 
-  /* .contact-header::before {
+  .contact-header::before {
     content: '';
     background-color: #e4a13d;
     width: 160px;
@@ -924,12 +925,12 @@
     width: 33%;
     text-align: left;
     padding-left: 20px;
-  }  */
+  } 
 
   /* Contact Form Styles Starts Here */
 
   /* Contact Information Styles Starts Here */
-/* 
+
   #contact-info {
     padding-bottom: 40px;
   }
@@ -946,4 +947,4 @@
   #contact-info p {
     font-size: 18px;
   }
-}*/
+}
