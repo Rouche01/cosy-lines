@@ -1,116 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
 
-    <!-- Optimized viewport for mobile -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
-    />
+  <!-- Optimized viewport for mobile -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-    <!-- Website description -->
-    <meta name="description" content="Cosy-Lines: HTML website template for an interior design brand"/>
-    <meta name="keywords" content="interior design, HTML templates, interior design website" />
+  <!-- Website description -->
+  <meta name="description" content="Cosy-Lines: HTML website template for an interior design brand" />
+  <meta name="keywords" content="interior design, HTML templates, interior design website" />
 
-    <!-- Website title-->
-    <title>Shop: Cosy-Lines</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
+  <!-- Website title-->
+  <title>Shop: Cosy-Lines</title>
+  <link rel="shortcut icon" href="" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" href="" />
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+  <!-- CSS links-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
 </head>
+
 <body>
-    <header>
-        <!-- NAVBAR STARTS HERE -->
-        <div class="container">
+  <header>
+    <!-- NAVBAR STARTS HERE -->
+    <div class="container">
 
-        
-          <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-            <a class="navbar-brand logo" href="#">Cosy Lines</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto navlist">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item cart-icon">
-                  <a class="cart"><i class="fas fa-shopping-cart"></i></a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <a class="navbar-brand logo" href="index.html">Cosy Lines</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto navlist main-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item cart-icon">
+              <a class="cart"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
         </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-
-    <!-- FOOTER STARTS HERE -->
-    <footer class="foot-section">
-        <div class="signup-section">
-          <h3 class="sign-up">
-            Sign Up to Recieve Our Newsletters and Design Inspirations
-          </h3>
-          <input
-            type="email"
-            class="sign-input"
-            placeholder="Enter Your Email Address"
-          />
-          <button type="button" class="btn btn-footer">Sign Up</button>
-        </div>
-        <div class="footer-list">
-          <div class="footer-links">
-            <a href="" class="footlink">Terms and Condition</a>
-            <a href="" class="footlink">Portfolio</a>
-            <a href="" class="footlink">Career</a>
-            <a href="" class="footlink">Shop</a>
-            <a href="" class="footlink">Privacy Policy</a>
+  <!-- SWIPER SLIDER BEGIN-->
+  <!-- Slider main container -->
+  <div class="container"></div>
+  <div class="swiper-container m-lg-4 m-md-4">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper pb-3 pr-3">
+      <!-- Sliders -->
+      <div class="swiper-slide ml-0" style="background-image:url(./img/slider//shop-slider1.jpg)">
+        <!-- Slider Text -->
+        <div class="card w-75 text-center card_div">
+          <div class="card-body">
+            <p class="card-text card_text">Check Out Our New<br><span class="text-highlight">Sofa</span> 2020 <span
+                class="text-highlight">Collection</span></p>
           </div>
-          <p class="copy">
-            <span class="foot-logo">Zuri.</span> 2020 All Rights Reserved
-          </p>
         </div>
-      </footer>
-      <!-- FOOTER ENDS HERE -->
-    
+      </div>
+
+      <div class="swiper-slide ml-0" style="background-image:url(./img/slider//shop-slider1.jpg)">
+        <!-- Slider Text -->
+        <div class="card w-75 text-center card_div">
+          <div class="card-body">
+            <p class="card-text card_text">Check Out Our New<br><span class="text-highlight">Sofa</span> 2020 <span
+                class="text-highlight">Collection</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide ml-0" style="background-image:url(./img/slider//shop-slider1.jpg)">
+        <!-- Slider Text -->
+        <div class="card w-75 text-center card_div">
+          <div class="card-body">
+            <p class="card-text card_text">Check Out Our New<br><span class="text-highlight">Sofa</span> 2020 <span
+                class="text-highlight">Collection</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  </div>
+  <!-- SWIPER SLIDER END -->
+
+  <!-- COLLECTION TABS -->
+  <div class="container pt-3">
+    <ul class="nav nav-tabs pt-3 shop-nav-tabs row pull-right justify-content-center">
+      <li class="active col-lg-2 col-md-2 col-sm-4 col-xs-4 offset-lg-4 offset-xs-4 tab_link nav-item">
+        <a data-toggle="tab" href="#commercial" class="text-decoration-none text-dark active nav-link">Commercial</a></li>
+      <li class="col-lg-2 col-md-2 col-sm-4 col-xs-4 tab_link nav-item"><a data-toggle="tab" href="#residential"
+          class="text-decoration-none text-dark padding_3 nav-link">Residential</a></li>
+      <li class="col-lg-2 col-md-2 tab_link nav-item"><a data-toggle="tab" href="#all"
+          class="text-decoration-none text-dark nav-link">All</a></li>
+    </ul>
+
+    <!-- Tabs Contents -->
+    <div class="tab-content pb-3">
+      <!-- Commercial Listing -->
+      <div id="commercial" class="tab-pane fade show active">
+        <div class="row product-list">
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-1.jpg" alt="Shop Img1">
+                <span class="price">$650.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Senatti Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-2.jpg" alt="Shop Img1">
+                <span class="price">$650.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-3.jpg" alt="Shop Img1">
+                <span class="price">$650.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Flower Vase
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-4.jpg" alt="Shop Img1">
+                <span class="price">$650.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Comfy Sofa
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-5.jpg" alt="Shop Img1">
+                <span class="price">$650.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Workspace
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-6.jpg" alt="Shop Img1">
+                <span class="price">$650.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Senatti Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Residential Listings -->
+      <div id="residential" class="tab-pane fade">
+        <div class="row product-list">
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/products-1.jpg" alt="Shop Img1">
+                <span class="price">$1,650.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Senatti Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-2.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-3.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Flower Vase
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/products-2.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Comfy Sofa
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/products-4.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Workspace
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/products-3.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Senatti Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- All Listing -->
+      <div id="all" class="tab-pane fade">
+        <div class="row product-list">
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-1.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Senatti Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/products-2.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-3.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Flower Vase
+                  </span>
+                </h4>
+                <p class="pb-3"><i class="fa fa-bookmark accessibility-icon"></i> &nbsp; &nbsp; <i
+                    class="fa fa-shopping-cart accessibility-icon"></i></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/products-1.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Comfy Sofa
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-5.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Zuri Workspace
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 pb-3">
+            <section class="panel">
+              <div class="pro-img-box">
+                <img src="img/shop/interior-deco-6.jpg" alt="Shop Img1">
+                <span class="price">$765.00</span>
+              </div>
+
+              <div class="panel-body text-center panel_body">
+                <h4>
+                  <span class="pro-title text-white pt-3">
+                    Senatti Office Seats
+                  </span>
+                </h4>
+                <p class="pb-3"><a href="#"><i class="fa fa-bookmark accessibility-icon"></a></i> &nbsp; &nbsp; <a href="#"><i class="fa fa-shopping-cart accessibility-icon"></i></a></p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <!-- COLLECTION TABS END -->
+
+  <!-- FOOTER STARTS HERE -->
+  <footer class="foot-section pt-3">
+    <div class="signup-section">
+      <h3 class="sign-up">
+        Sign Up to Recieve Our Newsletters and Design Inspirations
+      </h3>
+      <input type="email" class="sign-input" placeholder="Enter Your Email Address" />
+      <button type="button" class="btn btn-footer">Sign Up</button>
+    </div>
+    <div class="footer-list">
+      <div class="footer-links">
+        <a href="" class="footlink">Terms and Condition</a>
+        <a href="" class="footlink">Portfolio</a>
+        <a href="" class="footlink">Career</a>
+        <a href="" class="footlink">Shop</a>
+        <a href="" class="footlink">Privacy Policy</a>
+      </div>
+      <p class="copy">
+        <span class="foot-logo">Zuri.</span> 2020 All Rights Reserved
+      </p>
+    </div>
+  </footer>
+  <!-- FOOTER ENDS HERE -->
 
 
-    <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/swiper.min.js"></script>
+
+  <!-- All javascript at the bottom of the page for fast page load -->
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
 </body>
+
 </html>
