@@ -79,7 +79,7 @@
 
     <!-- CONTACT FORM SECTION  STARTS HERE -->
       <section id="contact-form">
-        <form action="">
+        <form action="php/sendmail.php" method="POST">
           <div class="row">
             <div class="col-md-8 form-group">
               <textarea class="form-control" name="message" id="contactMessage" rows="4" placeholder="Your message here" aria-placeholder="Your message here"></textarea>
@@ -87,7 +87,7 @@
             <div class="col-md-4">
               <input type="text" class="form-control" placeholder="Name" id="contactName" name="name" aria-placeholder="Name">
               <input type="email" class="form-control mt-3" placeholder="Email" id="contactEmail" name="email" aria-placeholder="Email">
-              <button class="btn form-btn mt-3" type="submit">Send <i class="fas fa-paper-plane ml-2"></i></button>
+              <button class="btn form-btn mt-3" type="submit" name="submit">Send <i class="fas fa-paper-plane ml-2"></i></button>
             </div>
           </div>
         </form>
