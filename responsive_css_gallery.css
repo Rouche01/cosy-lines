@@ -1,0 +1,19 @@
+/*This styling has been included in css/responsive.css bur added here in case of conflicts*/
+/*Kindly delete this if there is no conflict*/
+
+/* GALLERY PAGE MEDIA QUERY BEGIN HERE */
+@media all and (min-width:767px){
+    .btn-next-gallery{
+        display: none;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .tab-desktop-only{
+        display: none;
+    }
+    .gallery-nav-tabs .nav-item, .gallery-nav-tabs.col-sm-6{
+        width: 200px!important;
+    }
+}
+/* GALLERY PAGE MEDIA QUERY END HERE */
