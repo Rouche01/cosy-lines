@@ -1,8 +1,5 @@
 {
-    "name": "glim/cosy-lines",
-    "type": "project",
     "require": {
-        "phpmailer/phpmailer": "~6.1",
-        "vlucas/phpdotenv": "^5.0"
+        "phpmailer/phpmailer": "^6.1"
     }
 }
