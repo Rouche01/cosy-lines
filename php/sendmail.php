@@ -1,6 +1,5 @@
 <?php
 
-require 'base.php';
 
 //define variables and declare them empty
 $name = $email = $message = "";
@@ -24,30 +23,38 @@ function clean_input($data)
     return $data;
 }
 
-
-    //Put the submitter's address in a reply-to header
-    //This will fail if the address provided is invalid,
-    //in which case we should ignore the whole request
-    if ($mail->addReplyTo($email, $name)) {
-        $mail->Subject = 'Website contact form';
-        //Keep it simple - don't use HTML
-        $mail->isHTML(false);
-        //Build a simple message body
-        $mail->Body = <<<EOT
-                Email: {$email}
-                Name: {$name}
-                Message: {$message}
-                EOT;
-        //Send the message, check for errors
-        if (!$mail->send()) {
-            //The reason for failing to send will be in $mail->ErrorInfo
-            //but you shouldn't display errors to users - process the error, log it on your server.
-            $msg = 'Sorry, something went wrong. Please try again later.';
-        } else {
-            $msg = 'Message sent! Thanks for contacting us.';
-        }
+// sanitize the email and make sure it is valid
+function sanitize_email($field)
+{
+    $field = filter_var($field, FILTER_SANITIZE_EMAIL);
+    if (filter_var($field, FILTER_VALIDATE_EMAIL)) {
+        return true;
     } else {
-        $msg = 'Invalid email address, message ignored.';
+        return false;
     }
+}
+
+    //send mail
+    $email_check = sanitize_email($email);
+    if ($email_check == false) {
+        echo "<script>
+                    alert('Invalid email.');
+                </script>";
+    } else {
+
+        //send mail
+        $my_email= "richardemate@gmail.com";
+        $msg = "new mail from ".$name ." with the email ".$email."\r\n \r\n" .$message;
+
+        mail($my_email, $name, $msg);
+        echo "<script>
+                alert('Thanks for reaching us, we will get back to you shortly.                ');
+            </script>";
+
+    // header("Location: ../contact.html");
+    // die(); 
+}
+
+
 
 ?>
