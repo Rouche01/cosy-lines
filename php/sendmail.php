@@ -43,7 +43,7 @@ try{
     $mail->send();
     echo 'Message has been sent';
 
-    mail($email, 'Mail received', 'Your message was sent successfully, we will reply shortly');
+    mail($email, 'Mail received', 'Your message was sent successfully, we will reply shortly'); 
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
