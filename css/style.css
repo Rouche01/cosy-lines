@@ -6,6 +6,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -671,7 +672,7 @@ img {
     margin-top: -50px;
 }
 
-.product-list img {
+.portfolio .product-list img {
     width: 100%;
     height: 330px!important;
     object-fit: cover;
@@ -847,6 +848,7 @@ img {
 .gallery-nav-tabs li a {
     width: 100%;
     line-height: unset;
+    padding-top: 20px;
 }
 
 .gallery-nav-tabs .nav-link {
@@ -854,6 +856,7 @@ img {
     color: #9FB6A1 !important;
     margin: auto;
     padding: 0;
+    padding-top: 18px !important;
 }
 
 .gallery-nav-tabs .nav-item {

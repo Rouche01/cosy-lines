@@ -13,7 +13,7 @@
     <meta name="keywords" content="interior design, HTML templates, interior design website"/>
 
     <!-- Website title-->
-    <title>Shop: Cosy-Lines</title>
+    <title>Portfolio: Cosy-Lines</title>
     <link rel="shortcut icon" href="" type="image/x-icon"/>
     <link rel="apple-touch-icon-precomposed" href=""/>
 
@@ -22,6 +22,7 @@
 
     <!-- CSS links-->
     <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/ekko-lightbox.css">
     <link rel="stylesheet" href="./css/all.min.css"/>
     <link rel="stylesheet" href="./css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
@@ -35,33 +36,33 @@
 
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-            <a class="navbar-brand logo" href="#">Cosy Lines</a>
+            <a class="navbar-brand logo" href="index.html">Cosy Lines</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto navlist main-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav mr-auto navlist">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                      <a class="nav-link active" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                      <a class="nav-link" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item cart-icon">
-                        <a class="cart"><i class="fas fa-shopping-cart"></i></a>
+                      <a class="cart"><i class="fas fa-shopping-cart"></i></a>
                     </li>
-                </ul>
+                  </ul>
             </div>
         </nav>
     </div>
@@ -73,7 +74,7 @@
     <hr class="dropdown-divider mr-4">
     <ul class="nav nav-tabs gallery-nav-tabs row pull-right justify-content-center tab-desktop-only">
         <li class="col-lg-1 col-md-1 nav-item">
-            <a data-toggle="tab" href="#gallery" class="text-decoration-none nav-link pt-2">All</a>
+            <a data-toggle="tab" href="#gallery" class="text-decoration-none nav-link pt-2">ALL</a>
         </li>&nbsp;
         <li class="col-lg-2 col-md-2 nav-item">
             <a data-toggle="tab" href="#interior_design" class="text-decoration-none active nav-link">INTERIOR
@@ -150,7 +151,7 @@
 
 
     <!-- Tabs Contents -->
-    <div class="tab-content pb-3">
+    <div class="tab-content portfolio pb-3">
         <!-- All gallery -->
         <div id="gallery" class="tab-pane fade show active">
             <div class="row product-list">
@@ -247,7 +248,9 @@
                 <div class="col-md-4 pr-4 mb-4 pb-3">
                     <section class="panel">
                         <div class="pro-img-box">
-                            <img src="img/gallery/gallery12.jpg" alt="Shop Img1">
+                            <a href="./img/gallery/gallery12.jpg" data-toggle="lightbox">
+                                <img src="img/gallery/gallery12.jpg" alt="Shop Img1">
+                            </a>
                         </div>
                     </section>
                 </div>
@@ -296,7 +299,9 @@
                 <div class="col-md-4 pr-4 mb-4 pb-3">
                     <section class="panel">
                         <div class="pro-img-box">
-                            <img src="img/gallery/gallery3.jpg" alt="Shop Img1">
+                            <a href="img/gallery/gallery3.jpg" data-toggle="lightbox">
+                                <img src="img/gallery/gallery3.jpg" alt="Shop Img1">
+                            </a>
                         </div>
                     </section>
                 </div>
@@ -644,9 +649,8 @@
 <!-- All javascript at the bottom of the page for fast page load -->
 <script src="./js/jquery-3.5.1.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/ekko-lightbox.min.js"></script>
 <script src="./js/swiper.min.js"></script>
-<script>
-    $('.carousel').carousel({interval: false,});
-</script>
+<script src="./js/custom.js"></script>
 </body>
 </html>
