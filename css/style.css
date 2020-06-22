@@ -623,6 +623,9 @@ img {
     width: 580px !important;
     margin-top: -20px;
     border-radius: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card_text {
@@ -647,11 +650,11 @@ img {
 
 .shop-nav-tabs .nav-link.active::after {
     content: '';
-    width: 30%;
+    width: 35%;
     height: 5px;
     background-color: #E4A13D;
     position: absolute;
-    margin-left: 35%;
+    margin-left: 28%;
     left: 0;
     bottom: 0px;
 }
@@ -664,9 +667,13 @@ img {
     border-bottom: none !important;
 }
 
+.tab_content{
+    margin-top: -50px;
+}
+
 .product-list img {
     width: 100%;
-    height: 280px;
+    height: 330px!important;
     object-fit: cover;
     border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
@@ -685,7 +692,7 @@ img {
     display: inline-block;
     text-align: center;
     padding-top: 14px;
-    left: 25%;
+    left: 28%;
     bottom: -25px;
     position: absolute;
 }

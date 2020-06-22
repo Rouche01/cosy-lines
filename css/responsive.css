@@ -665,7 +665,30 @@
 
 
 /* MEDIA QUERY FOR SHOP PAGE STARTS HERE */
-@media all and (max-width: 800px) {
+@media all and (max-width: 1300px){
+    .price{
+        left: 20%;
+    }
+}
+@media all and (max-width: 1100px){
+    .price{
+        left: 15%;
+    }
+    .tab_content{
+        margin-top: -30px;
+    }
+}
+
+@media all and (max-width: 950px){
+    .price{
+        left: 8%;
+    }
+    .tab_content{
+        margin-top: -15px;
+    }
+}
+
+@media all and (max-width: 850px) {
     .shop-nav-tabs .nav-link.active {
         font-size: 18px;
         margin-top: -2px;
@@ -676,7 +699,7 @@
     }
 
     .price {
-        left: 10%;
+        left: 5%;
     }
 
     /* SLIDER CONTAINER */
@@ -701,13 +724,31 @@
     }
 }
 
+@media all and (max-width: 830px) {
+
+    .price{
+        left: 3%;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+
+    .price{
+        left: 33%;
+    }
+    .swiper-slide{
+        margin-top: 20px;
+    }
+}
 
 @media all and (max-width: 560px) {
-
+    .swiper-slide{
+        margin-top: 0;
+    }
     .shop-nav-tabs {
         margin-bottom: 40px;
     }
-
     .shop-nav-tabs .nav-link.active {
         font-size: 17px;
         margin-top: -2px;
