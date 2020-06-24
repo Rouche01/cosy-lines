@@ -930,6 +930,10 @@ img {
     padding-right: 20px;
 }
 
+.cart-icon a {
+    color: #fff;
+}
+
 .cart-icon::after {
     content: '5';
     font-size: 12px;
