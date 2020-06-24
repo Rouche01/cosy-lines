@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Optimized viewport for mobile -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- Website description -->
+    <meta
+      name="description"
+      content="Cosy-Lines: HTML website template for an interior design brand"
+    />
+    <meta
+      name="keywords"
+      content="interior design, HTML templates, interior design website"
+    />
+
+    <!-- Website title-->
+    <title>Cosy-Lines</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="" />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS links-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+      <!-- HEADER STARTS HERE -->
+      <header>
+        <!-- NAVBAR STARTS HERE -->
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <a class="navbar-brand logo" href="index.html">Cosy Lines</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto navlist">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item cart-icon">
+                  <a class="cart"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- NAVBAR ENDS HERE -->
+      </header>
+
+    <!-- CART SECTION STARTS HERE -->
+    <section id="cart">
+        <div class="container">
+            <h2>Cart (5 items)</h2>
+            <hr>
+            <div class="row title text-left mt-5">
+                <div class="col-md-6">
+                    <h3 class="heading">Items</h3>
+                </div>
+                <div class="col-md-2">
+                    <h3 class="heading">Quantity</h3>
+                </div>
+                <div class="col-md-2">
+                    <h3 class="heading">Unit Price</h3>
+                </div>
+                <div class="col-md-2">
+                    <h3 class="heading">Sub Total</h3>
+                </div>
+            </div>
+            <div class="row carted-products mt-3">
+                <div class="col-md-6 product border-right border-bottom">
+                    <div class="d-flex align-items-center">
+                        <img src="./img/shop/interior-deco-6.jpg" alt="Senatti Office Seat">
+                        <div class="text-left ml-5">
+                            <h4>Senatti Office Seat</h4>
+                            <p class="mobile-price">$1250.00</p>
+                            <p class="mt-3 remove-product"><a href="#"><i class="fas fa-trash mr-3"></i></a>Remove</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 product-quantity border-right">
+                    <select class="qty-select" id="productQuantity1">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <div class="qty-ctrl">
+                      <span class="reduce-ctrl mr-3">-</span>
+                      <span class="mobile-qty">1</span>
+                      <span class="add-ctrl ml-3 active-ctrl">+</span>
+                    </div>
+                </div>
+                <div class="col-md-2 unit-price border-right">
+                    <p>$1250.00</p>
+                </div>
+                <div class="col-md-2 sub-total">
+                    <p>$1250.00</p>
+                </div>
+            </div>
+            <div class="row carted-products mt-4">
+              <div class="col-md-6 product border-right border-bottom">
+                  <div class="d-flex align-items-center">
+                      <img src="./img/shop/interior-deco-3.jpg" alt="Zuri Flower Vase">
+                      <div class="text-left ml-5">
+                          <h4>Zuri Flower Vase</h4>
+                          <p class="mobile-price">$1250.00</p>
+                          <p class="mt-3 remove-product"><a href="#"><i class="fas fa-trash mr-3"></i></a>Remove</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2 product-quantity border-right">
+                  <select class="qty-select" id="productQuantity1">
+                      <option value="1" selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                  </select>
+                  <div class="qty-ctrl">
+                    <span class="reduce-ctrl mr-3">-</span>
+                    <span class="mobile-qty">1</span>
+                    <span class="add-ctrl ml-3 active-ctrl">+</span>
+                  </div>
+              </div>
+              <div class="col-md-2 unit-price border-right">
+                  <p>$1250.00</p>
+              </div>
+              <div class="col-md-2 sub-total">
+                  <p>$1250.00</p>
+              </div>
+            </div>
+            <div class="row carted-products mt-4">
+              <div class="col-md-6 product border-right border-bottom">
+                  <div class="d-flex align-items-center">
+                      <img src="./img/shop/interior-deco-2.jpg" alt="Zuri Office Seat">
+                      <div class="text-left ml-5">
+                          <h4>Zuri Office Seat</h4>
+                          <p class="mobile-price">$2500.00</p>
+                          <p class="mt-3 remove-product"><a href="#"><i class="fas fa-trash mr-3"></i></a>Remove</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2 product-quantity border-right">
+                  <select class="qty-select" id="productQuantity1">
+                      <option value="1">1</option>
+                      <option value="2" selected>2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                  </select>
+                  <div class="qty-ctrl">
+                    <span class="reduce-ctrl mr-3 active-ctrl">-</span>
+                    <span class="mobile-qty">2</span>
+                    <span class="add-ctrl ml-3 active-ctrl">+</span>
+                  </div>
+              </div>
+              <div class="col-md-2 unit-price border-right">
+                  <p>$1250.00</p>
+              </div>
+              <div class="col-md-2 sub-total">
+                  <p>$2500.00</p>
+              </div>
+            </div>
+            <div class="row carted-products mt-4">
+              <div class="col-md-6 product border-right border-bottom">
+                  <div class="d-flex align-items-center">
+                      <img src="./img/shop/products-4.jpg" alt="Zuri Workspace">
+                      <div class="text-left ml-5">
+                          <h4>Zuri Workspace</h4>
+                          <p class="mobile-price">$2150.00</p>
+                          <p class="mt-3 remove-product"><a href="#"><i class="fas fa-trash mr-3"></i></a>Remove</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2 product-quantity border-right">
+                  <select class="qty-select" id="productQuantity1">
+                      <option value="1" selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                  </select>
+                  <div class="qty-ctrl">
+                    <span class="reduce-ctrl mr-3">-</span>
+                    <span class="mobile-qty">1</span>
+                    <span class="add-ctrl ml-3 active-ctrl">+</span>
+                  </div>
+              </div>
+              <div class="col-md-2 unit-price border-right">
+                  <p>$2150.00</p>
+              </div>
+              <div class="col-md-2 sub-total">
+                  <p>$2150.00</p>
+              </div>
+            </div>
+            <div class="row carted-products mt-4">
+              <div class="col-md-6 product border-right border-bottom">
+                  <div class="d-flex align-items-center">
+                      <img src="./img/shop/interior-deco-4.jpg" alt="Comfy Sofa">
+                      <div class="text-left ml-5">
+                          <h4>Comfy Sofa</h4>
+                          <p class="mobile-price">$2150.00</p>
+                          <p class="mt-3 remove-product"><a href="#"><i class="fas fa-trash mr-3"></i></a>Remove</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2 product-quantity border-right">
+                  <select class="qty-select" id="productQuantity1">
+                      <option value="1" selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                  </select>
+                  <div class="qty-ctrl">
+                    <span class="reduce-ctrl mr-3">-</span>
+                    <span class="mobile-qty">1</span>
+                    <span class="add-ctrl ml-3 active-ctrl">+</span>
+                  </div>
+              </div>
+              <div class="col-md-2 unit-price border-right">
+                  <p>$2150.00</p>
+              </div>
+              <div class="col-md-2 sub-total">
+                  <p>$2150.00</p>
+              </div>
+            </div>
+            <div class="total-price text-right">
+              <div class="total-cal-price d-flex">
+                <p>TOTAL:</p>
+                <p class="ml-auto" id="price-value">$9,300.00</p>
+              </div>
+              <p class="shipping text-right">Shipping fee not included</p>
+              <div class="price-action mt-5">
+                <button class="price-action-btn mr-4">Continue Shopping</button>
+                <button class="price-action-btn">Proceed to Checkout</button>
+              </div>
+            </div>
+      </div>
+        </div>
+    </section>
+      
+    <!-- FOOTER STARTS HERE -->
+    <footer class="foot-section">
+        <div class="signup-section">
+        <h3 class="sign-up">
+            Sign Up to Recieve Our Newsletters and Design Inspirations
+        </h3>
+        <input
+            type="email"
+            class="sign-input"
+            placeholder="Enter Your Email Address"
+        />
+        <button type="button" class="btn btn-footer">Sign Up</button>
+        </div>
+        <div class="footer-list">
+        <div class="footer-links">
+            <a href="" class="footlink">Terms and Condition</a>
+            <a href="" class="footlink">Portfolio</a>
+            <a href="" class="footlink">Career</a>
+            <a href="" class="footlink">Shop</a>
+            <a href="" class="footlink">Privacy Policy</a>
+        </div>
+        <p class="copy">
+            <span class="foot-logo">Zuri.</span> 2020 All Rights Reserved
+        </p>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS HERE -->
+
+<!-- All javascript at the bottom of the page for fast page load -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

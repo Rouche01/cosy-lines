@@ -14,7 +14,7 @@ $message = clean_input($_POST['message']);
 
 };
 
-//funtion to validate form input and protect from malicious code
+//function to validate form input and protect from malicious code
 
 function clean_input($data)
 {
